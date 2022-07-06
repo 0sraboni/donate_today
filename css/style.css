@@ -178,25 +178,82 @@ body {
 }
 
 
-.donation-page-text{
+.donation-page-text {
     font-size: 45px;
 }
 
-.para-text{
+.para-text {
     font-size: 18px;
     line-height: 40px;
     margin-bottom: 5%;
-  }
+}
 
-.donation-page img{
+.donation-page img {
     width: 100%;
     border-radius: 5px;
-  }
+}
 
 
 .contact-img {
     background-size: 100%;
     width: 90%;
+}
+
+.update-container {
+    height: 600px;
+    margin-bottom: 200px;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.update-text h1 {
+    font-size: 45px;
+    text-align: center;
+}
+
+.update-text p {
+    font-size: 18px;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.email-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF4D6;
+    height: 300px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 40px;
+    border-radius: 5px;
+}
+
+.email-input input:not(:last-child) {
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    background: #D9D9D9;
+    padding-left: 10px;
+    width: 400px;
+    height: 60px;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.email-input input:not(:first-child) {
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    background-color: #ff5959;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 60px;
+    width: 160px;
+    cursor: pointer;
 }
 
 .contact-container {
@@ -211,6 +268,7 @@ body {
 
 .input-form {
     padding: 15px;
+    margin-bottom: 15px;
     border: 1px solid salmon;
     border-radius: 4px;
     width: 85%;
@@ -231,6 +289,11 @@ body {
 .contact-page-text {
     font-family: "Poppins", sans-serif;
     font-size: 50px;
+}
+
+#send-btn {
+    border: none;
+    cursor: pointer;
 }
 
 footer {
