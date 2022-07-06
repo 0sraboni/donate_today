@@ -1,6 +1,7 @@
 /* Import google fonts link */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
+/* Initialize the project */
 body {
     margin: 0;
     padding: 0;
@@ -12,6 +13,8 @@ body {
     margin-bottom: 400px;
 }
 
+
+/* Donate Banner part */
 .donate-banner {
     position: relative;
     text-align: center;
@@ -68,6 +71,8 @@ body {
     margin-bottom: 20px;
 }
 
+
+/* Donate Description with amount part */
 .donate-desc {
     text-align: center;
     margin-bottom: 50px;
@@ -78,7 +83,6 @@ body {
 }
 
 .donate-desc>p {
-    /* font-size: 45px; */
     width: 40%;
     margin: 0 auto;
 }
@@ -118,6 +122,8 @@ body {
     color: #B3B3B3;
 }
 
+
+/* Donate Plan part */
 .half-width {
     width: 50%;
     float: left;
@@ -178,6 +184,7 @@ body {
 }
 
 
+/* Donate Description part */
 .donation-page-text {
     font-size: 45px;
 }
@@ -194,11 +201,7 @@ body {
 }
 
 
-.contact-img {
-    background-size: 100%;
-    width: 90%;
-}
-
+/* My Updates part */
 .update-container {
     height: 600px;
     margin-bottom: 200px;
@@ -256,6 +259,13 @@ body {
     cursor: pointer;
 }
 
+
+/* Contact part */
+.contact-img {
+    background-size: 100%;
+    width: 90%;
+}
+
 .contact-container {
     display: flex;
     height: 600px;
@@ -296,6 +306,8 @@ body {
     cursor: pointer;
 }
 
+
+/* Footer part */
 footer {
     background-color: black;
     color: white;
