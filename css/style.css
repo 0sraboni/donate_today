@@ -58,6 +58,11 @@ body {
     margin-bottom: 20px;
 }
 
+.link-button:hover {
+    background-color: transparent;
+    border: 2px solid #ff5959;
+}
+
 .donate-button {
     text-decoration: none;
     color: white;
@@ -69,6 +74,12 @@ body {
     align-items: center;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+.donate-button:hover {
+    background-color: transparent;
+    border: 2px solid #ff5959;
+    color: black;
 }
 
 
@@ -284,11 +295,6 @@ body {
     width: 85%;
 }
 
-#send-btn {
-    border: none;
-    cursor: pointer;
-}
-
 .input-form-text-area {
     padding: 35px 15px;
     border: 1px solid salmon;
@@ -304,6 +310,11 @@ body {
 #send-btn {
     border: none;
     cursor: pointer;
+}
+
+#send-btn:hover {
+    border: 2px solid #ff5959;
+    color: black;
 }
 
 
