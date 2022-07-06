@@ -8,8 +8,8 @@ body {
 }
 
 .flexible-container {
-    height: 600px;
-    margin-bottom: 350px;
+    height: 700px;
+    margin-bottom: 400px;
 }
 
 .donate-banner {
@@ -175,6 +175,62 @@ body {
     height: 300px;
     background: #fff4d6;
     border-radius: 5px;
+}
+
+
+.donation-page-text{
+    font-size: 45px;
+}
+
+.para-text{
+    font-size: 18px;
+    line-height: 40px;
+    margin-bottom: 5%;
+  }
+
+.donation-page img{
+    width: 100%;
+    border-radius: 5px;
+  }
+
+
+.contact-img {
+    background-size: 100%;
+    width: 90%;
+}
+
+.contact-container {
+    display: flex;
+    height: 600px;
+    margin-bottom: 200px;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input-form {
+    padding: 15px;
+    border: 1px solid salmon;
+    border-radius: 4px;
+    width: 85%;
+}
+
+#send-btn {
+    border: none;
+    cursor: pointer;
+}
+
+.input-form-text-area {
+    padding: 35px 15px;
+    border: 1px solid salmon;
+    border-radius: 4px;
+    width: 85%;
+}
+
+.contact-page-text {
+    font-family: "Poppins", sans-serif;
+    font-size: 50px;
 }
 
 footer {
