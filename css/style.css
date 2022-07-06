@@ -30,6 +30,18 @@ body {
     transform: translate(-50%, -50%);
 }
 
+.centered h1{
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.centered p{
+    width: 65%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
 .link-button {
     text-decoration: none;
     color: white;
