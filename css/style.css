@@ -9,7 +9,7 @@ body {
 
 .flexible-container {
     height: 600px;
-    margin-bottom: 150px;
+    margin-bottom: 350px;
 }
 
 .donate-banner {
@@ -30,13 +30,13 @@ body {
     transform: translate(-50%, -50%);
 }
 
-.centered h1{
+.centered h1 {
     font-size: 50px;
     font-weight: 700;
     margin-bottom: 20px;
 }
 
-.centered p{
+.centered p {
     width: 65%;
     margin: 0 auto;
     margin-bottom: 50px;
@@ -45,8 +45,7 @@ body {
 .link-button {
     text-decoration: none;
     color: white;
-    font-family: "Poppins", sans-serif;
-    font-weight: normal;
+    font-weight: 600;
     background-color: #ff5959;
     padding: 15px 30px;
     border-radius: 5px;
@@ -54,4 +53,67 @@ body {
     align-items: center;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+.donate-button {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    background-color: #ff5959;
+    padding: 15px 30px;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.donate-desc {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.donate-desc>h1 {
+    font-size: 45px;
+}
+
+.donate-desc>p {
+    /* font-size: 45px; */
+    width: 40%;
+    margin: 0 auto;
+}
+
+.donate-amount {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.donate-amount>button {
+    border: none;
+    color: #707070;
+    padding: 40px;
+    margin-right: 10px;
+    border-radius: 5px;
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+
+.donate-amount>button:nth-child(2) {
+    background-color: #e6c7c7;
+    border: 3px solid #ff5959;
+    color: #d63838;
+}
+
+.other>hr {
+    background: #B3B3B3;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 45px;
+}
+
+.other p {
+    font-size: 18px;
+    color: #B3B3B3;
 }
